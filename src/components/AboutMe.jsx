@@ -3,7 +3,7 @@ import React from 'react'
 const AboutMe = () => {
   return (
     <div className='m-12 py-28 flex justify-evenly' >
-       <button class="bg-white font-bold text-3xl p-4 rounded-3xl h-fit my-auto hover:bg-black hover:text-white transition-all">About Me</button>
+       <div class="bg-white font-bold text-3xl p-4 rounded-3xl h-fit my-auto">About Me</div>
 
        
         <div className='w-[50%] text-2xl font-semibold  '>
