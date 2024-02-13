@@ -11,7 +11,7 @@ const Navigation = () => {
     <div><div className={classNames(scrollPosition>20?"flex justify-evenly transition-all bg-white text-2xl mb-12 p-2  fixed w-[100%] z-10 ":"flex justify-evenly text-2xl mb-12 p-2  fixed w-[100%] z-10 ")}> 
     <div className={(location.pathname==='/')?'bg-black text-white p-3 rounded-xl':'p-3 rounded-xl'}> <Link to='/'>HOME</Link></div>
     
-    <div className={(location.pathname==='/post')?'bg-black text-white p-3 rounded-xl ':'p-3 rounded-xl'}><Link to='/post' >Projects</Link></div>
+    <div className={(location.pathname==='/post')?'bg-black text-white p-3 rounded-xl ':'p-3 rounded-xl'}><Link to='/post' >PROJECTS</Link></div>
    
    
   </div></div>
