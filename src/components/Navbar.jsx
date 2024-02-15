@@ -63,9 +63,9 @@ const Navbar = () => {
 
       {isOpen && (
         <div className="hidden lg:block mt-2">
-         <Link to="/" className=" hover:bg-white block py-2 px-4">Home</Link>
+         <Link to="/" className=" hover:bg-white block py-2 px-4" onClick={toggleMenu}>Home</Link>
          
-          <Link to="/projects" className=" hover:bg-white block py-2 px-4">Projects</Link>
+          <Link to="/projects" onClick={toggleMenu} className=" hover:bg-white block py-2 px-4">Projects</Link>
           
         </div>
       )}

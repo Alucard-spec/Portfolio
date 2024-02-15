@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className=' pt-24'>
+    <div className=' pt-3'>
     <div className=' py-14 bg-black text-white flex  flex-col justify-evenly border-2 border-black ' >
        <div className=" font-bold text-5xl lg:text-4xl md:text-3xl px-16 lg:px-12 md:px-3  text-left  "> Spotify-Clone</div>
       <br />
