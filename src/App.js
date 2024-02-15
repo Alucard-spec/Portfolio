@@ -3,7 +3,7 @@
 import { Route, Routes } from 'react-router-dom';
 
 import Home from "./components/Home.jsx";
-import Navigation from './components/Navigation.jsx';
+import Navbar from './components/Navbar.jsx';
 import Projects from './components/Projects.jsx';
 
 
@@ -16,7 +16,7 @@ function App() {
       
       <div style={bodyStyle}  className="App ">
         
-        <Navigation/>
+        <Navbar/>
       <Routes>
 
         <Route exact path="/" element={<Home/>} />
