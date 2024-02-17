@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from "./components/Home.jsx";
 import Navbar from './components/Navbar.jsx';
 import Projects from './components/Projects.jsx';
+import ExtendedAboutMe from './components/ExtendedAboutMe.jsx';
 
 
 
@@ -21,6 +22,7 @@ function App() {
 
         <Route exact path="/" element={<Home/>} />
         <Route path="/projects" element={<Projects/>} />
+        <Route path="/aboutMe" element={<ExtendedAboutMe/>} />
       </Routes>
     
       
