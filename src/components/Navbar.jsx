@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
+
 const Navbar = () => {
 
     const location= useLocation();
@@ -24,9 +25,9 @@ const Navbar = () => {
         <div className=" font-bold text-3xl">{currentLocation()}</div>
 
         <div className="flex lg:hidden space-x-10">
-          <Link to="/" className=" hover:bg-white p-2 rounded-lg">Home</Link>
+          <div><Link to="/" className=" hover:bg-white p-2 rounded-lg ">Home</Link></div>
          
-          <Link to="/projects" className=" hover:bg-white p-2 rounded-lg">Projects</Link>
+          <div><Link to="/projects" className=" hover:bg-white p-2 rounded-lg">Projects</Link></div>
          
         </div>
 
@@ -63,9 +64,9 @@ const Navbar = () => {
 
       {isOpen && (
         <div className="hidden lg:block mt-2">
-         <Link to="/" className=" hover:bg-white block py-2 px-4" onClick={toggleMenu}>Home</Link>
+          <div>  <Link to="/" className=" hover:bg-white block py-2 px-4" onClick={toggleMenu}>Home</Link></div>
          
-          <Link to="/projects" onClick={toggleMenu} className=" hover:bg-white block py-2 px-4">Projects</Link>
+          <div><Link to="/projects" onClick={toggleMenu} className=" hover:bg-white block py-2 px-4">Projects</Link></div>
           
         </div>
       )}

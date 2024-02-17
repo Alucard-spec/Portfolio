@@ -7,7 +7,7 @@ const AboutMe = () => {
 <br/>
        
         <div className='w-[50%] md:w-full text-2xl font-semibold md:py-2 py-12 z-10'>
-A CSE Student having a great interest and love for building softwares and websites. I enjoy working with computers and passionate about learning and working with new technologies.
+Just a guy having great interest and love for developing softwares and websites. I enjoy working with computers and passionate about learning and working with new technologies.
 </div>
     </div>
   )

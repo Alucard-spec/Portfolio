@@ -10,7 +10,7 @@ import Projects from './components/Projects.jsx';
 
 function App() {
   const bodyStyle = {
-    backgroundColor: '#ffbe0b',color:'#000814',margin:0,padding:0,minHeight:'100vh'
+    backgroundColor: '#ffbe0b',color:'#000814',margin:0,padding:0,minHeight:'100vh',fontFamily:"Anta, sans-serif",fontWeight:400,fontStyle:"normal"
   };
   return (
       
