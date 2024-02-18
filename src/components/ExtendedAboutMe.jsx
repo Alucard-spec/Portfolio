@@ -1,21 +1,42 @@
-import React from 'react'
-
+import React from 'react';
+import { CiTwitter } from "react-icons/ci";
+import { FaInstagram } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+import { FaRegFaceGrinBeam } from "react-icons/fa6";
+import {motion} from "framer-motion";
 const ExtendedAboutMe = () => {
   return (
-    <div className=' pt-3'>
-    <div className=' py-14 bg-black text-white flex  flex-col justify-evenly border-2 border-black ' >
-       <div className=" font-bold text-5xl lg:text-4xl md:text-3xl px-16 lg:px-12 md:px-3  text-left  "> Spotify-Clone</div>
-      <br />
-       
-        <div className='flex gap-16 lg:gap-6 md:gap-1 md:flex-col w-full px-16 lg:px-12 md:px-3 text-2xl md:text-xl italic   '><div className='h-fit my-auto'>
-A clone of one of the most popular streaming websites spotify. <br />Made with the help of Next-js , Tailwind and Supabase . <br />
-Contains various functinalities like User Authentication, Song Upload , Liked Playlist and ofcourse song playback.<br />
-<span className='font-bold'> Live Website</span> -{'>'} <a href="https://spotify-clone-oydb.vercel.app/" className='text-purple-800 font-bold hover:bg-white p-3'>Spotify-Clone</a> </div>
-<br /><div>
-<iframe className=' h-96 w-96 md:w-60 md:h-60 md:' src="https://spotify-clone-oydb.vercel.app/" frameborder="0" title='spotify-clone' ></iframe></div>
+   <div className='pt-10 p-5 mr-24 lg:mr-10 md:mr-5 sm:mr-0'>
+    <div className='text-5xl  md:text-3xl pb-8 flex space-x-2'><div>Introduction </div><FaRegFaceGrinBeam/></div>
+    <div className='text-2xl md:text-xl'>
+    Hey There! My Name is as you have seen on the main page Ujjawal Verma. <br />
+    My earliest memory with using computers is from 5th standard when i got my first PC. I started playing video games soon after and that opened a whole new Portal of entertainment for me. And I started to explore what else can you do with this. <br />
+    I am currently developing my skills in UI/UX designing, Web Development and Game Development. <br />
+     <br />
+     <div><a href="https://github.com/Alucard-spec" className='text-purple-800 underline hover:text-white'>My Github Page</a></div>
+     </div>
 
-</div>
-    </div></div>
+     <div className='text-5xl md:text-3xl pb-8 pt-10 md:pt-5 w-fit mx-auto'>Contact</div>
+    <div className=' text-3xl md:text-2xl flex md:flex-col  gap-10 md:gap-4 mx-auto w-fit italic underline pt-10 md:pt-4'> 
+    <motion.div animate={{x:0}} initial={{x:-200}}  whileHover={{ scale: 1.2 }}
+   transition={{duration:0.6}} className="text-3xl flex space-x-2 md:text-2xl md:mx-auto  w-fit box-border ">
+
+<a href="https://www.linkedin.com/in/ujjawal-verma-1a57a125a/">Linked In</a><CiLinkedin size={40} color='blue'/>
+</motion.div>
+<motion.div animate={{x:0}} initial={{x:-400}}  whileHover={{ scale: 1.2 }}
+   transition={{duration:0.6}} className="text-3xl flex space-x-2 md:text-2xl md:mx-auto  w-fit box-border ">
+
+<a href="https://www.instagram.com/ujjawal._.verma/">Instagram</a><FaInstagram size={40} color='red'/>
+</motion.div>
+<motion.div animate={{x:0}} initial={{x:-600}}  whileHover={{ scale: 1.2 }}
+   transition={{duration:0.6}} className="text-3xl flex space-x-2 md:text-2xl md:mx-auto   w-fit box-border ">
+
+<a href="https://twitter.com/ujjawal_verma9">Twitter</a><CiTwitter size={40} color='blue'/>
+</motion.div>
+    </div>
+    
+   </div>
+   
   )
 }
 
