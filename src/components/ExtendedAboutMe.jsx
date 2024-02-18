@@ -24,7 +24,7 @@ const ExtendedAboutMe = () => {
     
       <div>
      <div className='text-5xl md:text-3xl pb-8 pt-10 md:pt-5 w-fit mx-auto'>Contact</div>
-    <div className=' text-3xl md:text-2xl flex md:flex-col  gap-10 md:gap-4 mx-auto  italic underline pt-6 md:pt-4'> 
+    <div className=' text-3xl md:text-2xl flex md:flex-col  gap-10 md:gap-4 mx-auto w-fit  italic underline pt-6 md:pt-4'> 
     <motion.div animate={{x:0}} initial={{x:-200}}  whileHover={{ scale: 1.2 }}
    transition={{duration:0.6}} className="text-3xl flex gap-2 md:text-2xl w-fit md:mx-auto  box-border ">
 
