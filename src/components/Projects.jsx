@@ -1,8 +1,8 @@
 import React from 'react'
-
+import {motion} from "framer-motion";
 const Projects = () => {
   return (
-    <div className=' pt-3'>
+    <motion.div animate={{x:0}} initial={{x:-200}} transition={{duration:0.6}}  className=' pt-3'>
     <div className=' py-14 bg-black text-white flex  flex-col justify-evenly border-2 border-black ' >
        <div className=" font-bold text-5xl lg:text-4xl md:text-3xl px-16 lg:px-12 md:px-3  text-left  "> Spotify-Clone</div>
       <br />
@@ -15,7 +15,7 @@ Contains various functinalities like User Authentication, Song Upload , Liked Pl
 <iframe className=' h-96 w-96 md:w-60 md:h-60 md:' src="https://spotify-clone-oydb.vercel.app/" frameborder="0" title='spotify-clone' ></iframe></div>
 
 </div>
-    </div></div>
+    </div></motion.div>
   )
 }
 

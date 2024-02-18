@@ -18,6 +18,9 @@ const Navbar = () => {
     else if(location.pathname==='/projects'){
         return "Projects";
     }
+    else if(location.pathname==='/aboutMe'){
+      return "About Me";
+  }
  }
   return (
     <nav className="bg-[#ffbe0b] text-2xl lg:text-xl text-black p-2 px-4 sticky top-0 z-20 ">

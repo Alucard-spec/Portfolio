@@ -6,8 +6,8 @@ import { FaRegFaceGrinBeam } from "react-icons/fa6";
 import {motion} from "framer-motion";
 const ExtendedAboutMe = () => {
   return (
-   <div className='pt-10 p-5 mr-24 lg:mr-10 md:mr-5 sm:mr-0'>
-    <div className='text-5xl  md:text-3xl pb-8 flex space-x-2'><div>Introduction </div><FaRegFaceGrinBeam/></div>
+   <motion.div animate={{x:0}} initial={{x:-200}} transition={{duration:0.6}} className='pt-10 p-5 mr-24 lg:mr-10 md:mr-5 sm:mr-0'>
+    <div  className='text-5xl  md:text-3xl pb-8 flex space-x-2'><div>Introduction </div><FaRegFaceGrinBeam/></div>
     <div className='text-2xl md:text-xl'>
     Hey There! My Name is as you have seen on the main page Ujjawal Verma. <br />
     My earliest memory with using computers is from 5th standard when i got my first PC. I started playing video games soon after and that opened a whole new Portal of entertainment for me. And I started to explore what else can you do with this. <br />
@@ -35,7 +35,7 @@ const ExtendedAboutMe = () => {
 </motion.div>
     </div>
     
-   </div>
+   </motion.div>
    
   )
 }
