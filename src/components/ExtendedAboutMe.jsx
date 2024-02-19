@@ -6,7 +6,7 @@ import { FaRegFaceGrinBeam } from "react-icons/fa6";
 import {motion} from "framer-motion";
 const ExtendedAboutMe = () => {
   return (
-   <motion.div animate={{x:"0%"}} initial={{x:"-50%"}} transition={{duration:0.9}} className='pt-10 p-5 mr-24 lg:mr-10 md:mr-5 sm:mr-0'>
+   <motion.div animate={{x:"0%"}} initial={{x:"-50%"}} transition={{duration:0.9}} className='pt-10 p-5 mr-24 lg:mr-10 md:mr-5 sm:mr-0 '>
     <div  className='text-5xl  md:text-3xl pb-8 flex gap-2 w-fit md:mx-auto'><div >Introduction </div><FaRegFaceGrinBeam/></div>
     <div className='text-2xl md:text-xl'>
     Hey There! My Name is as you have seen on the main page Ujjawal Verma. <br />
@@ -19,7 +19,7 @@ const ExtendedAboutMe = () => {
 
      <div>
      <div  className='text-5xl  md:text-3xl pb-8 pt-8 md:pt-5 md:mx-auto w-fit '>Skills</div>
-     <div className='text-2xl md:text-xl  '><div className='w-fit md:mx-auto'>Full Stack Web-development</div> <div className='w-fit md:mx-auto'>UI/UX design</div> <div className='w-fit md:mx-auto'>Game Development</div> </div>
+     <div className='text-2xl md:text-xl  '><div className='w-fit md:mx-auto'>Full Stack Web-development</div> <div className='w-fit md:mx-auto'>UI/UX design</div>  </div>
      </div>
     
       <div>
