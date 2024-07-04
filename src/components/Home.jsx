@@ -11,7 +11,7 @@ const Home = () => {
 
 
   return (
-    <div className='md:text-center pt-12 md:pt-0'>
+    <div className='md:text-center pt-12 md:pt-4'>
       <div className='flex flex-row-reverse justify-evenly md:flex-col'><div>
       <img src={require("./Content Writing/avatar.png")} className='md:mx-auto flex-none w-64 h-64 border-2 rounded-full rounded-s-2xl rounded-t-sm bg-yellow-200 border-neutral-800' alt="Avatar" /></div>
 <motion.div animate={{x:0}} initial={{x:-400}}  whileHover={{ scale: 1.2 }}
