@@ -16,13 +16,14 @@ function App() {
     window.scrollTo(0, 0);
   }, [pathname]);
   const bodyStyle = {
-    backgroundColor: '#ffbe0b',color:'#000814',margin:0,padding:0,minHeight:'100vh',fontFamily:"Anta, sans-serif",fontWeight:400,fontStyle:"normal"
+   margin:0,padding:0,minHeight:'100vh',fontFamily:"Anta, sans-serif",fontWeight:400,fontStyle:"normal"
   };
   return (
       
       <div style={bodyStyle}  className="App ">
         
         <Navbar/>
+       
       <Routes>
 
         <Route exact path="/" element={<Home/>} />

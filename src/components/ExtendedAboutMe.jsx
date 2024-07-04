@@ -1,48 +1,33 @@
 import React from 'react';
-import { CiTwitter } from "react-icons/ci";
-import { FaInstagram } from "react-icons/fa";
-import { CiLinkedin } from "react-icons/ci";
-import { FaRegFaceGrinBeam } from "react-icons/fa6";
-import {motion} from "framer-motion";
+
 const ExtendedAboutMe = () => {
   return (
-   <motion.div animate={{x:"0%"}} initial={{x:"-50%"}} transition={{duration:0.9}} className='pt-10 p-5 mr-24 lg:mr-10 md:mr-5 sm:mr-0 '>
-    <div  className='text-5xl  md:text-3xl pb-8 flex gap-2 w-fit md:mx-auto'><div >Introduction </div><FaRegFaceGrinBeam/></div>
-    <div className='text-2xl md:text-xl'>
-    Hey There! My Name is as you have seen on the main page Ujjawal Verma. <br />
-    My earliest memory with using computers is from 5th standard when i got my first PC. I started playing video games soon after and that opened a whole new Portal of entertainment for me. And I started to explore what else can you do with this. <br />
-    I am currently developing my skills in UI/UX designing, Web Development and Game Development. <br />
-     <br />
-     <div><a href="https://github.com/Alucard-spec" className='text-purple-800 underline hover:text-white'>My Github Page</a></div>
+   <div  className='pt-10 p-5 mr-24 lg:mr-10 md:mr-5 sm:mr-0 '>
+    <div  className='text-5xl  md:text-3xl pb-8 flex gap-2 w-fit md:mx-auto'>Introduction </div>
+    
+    {/* Introduction block */}
+    
+    <div className='flex md:flex-col-reverse justify-between items-center'>
+    <div className='text-2xl md:text-xl w-[60%] md:w-full'>
+      <span className='font-serif'>My Love For Computers is second to my love for Pasta.</span><br />
+      <br />
+      Greetings! Originating from the vibrant city of Lucknow, I'm currently immersed in the world of computer science as an undergraduate. I thrive on exploring new destinations, devouring books across genres, and indulging in diverse culinary adventures. Fueled by a relentless drive to accomplish significant milestones, I cherish every moment and aspire to embrace all that life has to offer. <br /> <br /> 
+     <div><a href="https://github.com/Alucard-spec" className='text-blue-700 underline hover:bg-yellow-200 p-2 rounded-2xl'>My Github Page</a></div>
      </div>
-
-
+      
+      <img src={require("./Content Writing/profilePic.jpg")} className='object-cover max-h-96 border-4 border-black rounded-full' alt="Avatar" />
+      
+     </div>
      <div>
      <div  className='text-5xl  md:text-3xl pb-8 pt-8 md:pt-5 md:mx-auto w-fit '>Skills</div>
-     <div className='text-2xl md:text-xl  '><div className='w-fit md:mx-auto'>Full Stack Web-development</div> <div className='w-fit md:mx-auto'>UI/UX design</div>  </div>
+     <div className='text-2xl md:text-xl flex md:flex-col md:space-y-6 justify-evenly  '><div className=' md:mx-auto '>Web-development</div> <div className=' md:mx-auto '>UI/UX design</div>
+     <div className=' md:mx-auto '>Content Writing</div>
+       </div>
      </div>
     
-      <div>
-     <div className='text-5xl md:text-3xl pb-8 pt-10 md:pt-5 w-fit mx-auto'>Contact</div>
-    <div className=' text-3xl md:text-2xl flex md:flex-col  gap-10 md:gap-4 mx-auto w-fit  italic underline pt-6 md:pt-4'> 
-    <motion.div animate={{x:0}} initial={{x:-200}}  whileHover={{ scale: 1.2 }}
-   transition={{duration:0.6}} className="text-3xl flex gap-2 md:text-2xl w-fit md:mx-auto  box-border ">
-
-<a href="https://www.linkedin.com/in/ujjawal-verma-1a57a125a/">Linked In</a><CiLinkedin size={40} color='blue'/>
-</motion.div>
-<motion.div animate={{x:0}} initial={{x:-400}}  whileHover={{ scale: 1.2 }}
-   transition={{duration:0.6}} className="text-3xl flex gap-2 w-fit md:mx-auto md:text-2xl  box-border ">
-
-<a href="https://www.instagram.com/ujjawal._.verma/">Instagram</a><FaInstagram size={40} color='red'/>
-</motion.div>
-<motion.div animate={{x:0}} initial={{x:-600}}  whileHover={{ scale: 1.2 }}
-   transition={{duration:0.6}} className="text-3xl flex gap-2 md:text-2xl  md:mx-auto   w-fit box-border ">
-
-<a href="https://twitter.com/ujjawal_verma9">Twitter</a><CiTwitter size={40} color='blue'/>
-</motion.div>
-    </div></div>
+     
     
-   </motion.div>
+   </div>
    
   )
 }

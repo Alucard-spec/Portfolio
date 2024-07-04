@@ -22,15 +22,16 @@ const Navbar = () => {
       return "About Me";
   }
  }
-  return (
-    <nav className="bg-[#ffbe0b] text-2xl lg:text-xl text-black p-2 px-4 sticky top-0 z-20 ">
-      <div className=" container mx-auto flex justify-between items-center">
+  return ( location.pathname!=="/"?(
+    <nav className=" text-2xl lg:text-xl bg-yellow-200 text-black p-2 px-4 sticky top-0 z-20 ">
+      <div className="   flex justify-between ">
         <div className=" font-bold text-3xl">{currentLocation()}</div>
 
         <div className="flex lg:hidden space-x-10">
-          <div><Link to="/" className=" hover:bg-white p-2 rounded-lg ">Home</Link></div>
-         
-          <div><Link to="/projects" className=" hover:bg-white p-2 rounded-lg">Projects</Link></div>
+          
+          <div><Link to="/" className=" hover:bg-yellow-200 p-2 rounded-lg ">Home</Link></div>
+          <div><Link to="/aboutMe" className=" hover:bg-yellow-200 p-2 rounded-lg">About</Link></div>
+          <div><Link to="/projects" className=" hover:bg-yellow-200 p-2 rounded-lg">Projects</Link></div>
           
          
         </div>
@@ -68,14 +69,14 @@ const Navbar = () => {
 
       {isOpen && (
         <div className="hidden lg:block mt-2">
-          <div>  <Link to="/" className=" hover:bg-white block py-2 px-4" onClick={toggleMenu}>Home</Link></div>
-         
-          <div><Link to="/projects" onClick={toggleMenu} className=" hover:bg-white block py-2 px-4">Projects</Link></div>
+          <div>  <Link to="/" className=" hover:bg-yellow-200 block py-2 px-4" onClick={toggleMenu}>Home</Link></div>
+          <div><Link to="/aboutMe" onClick={toggleMenu} className=" hover:bg-yellow-200 block py-2 px-4">About</Link></div>
+          <div><Link to="/projects" onClick={toggleMenu} className=" hover:bg-yellow-200 block py-2 px-4">Projects</Link></div>
           
         </div>
       )}
     </nav>
-  );
+  ):"");
 };
 
 export default Navbar;
