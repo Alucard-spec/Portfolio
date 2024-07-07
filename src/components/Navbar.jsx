@@ -29,9 +29,9 @@ const Navbar = () => {
 
         <div className="flex lg:hidden space-x-10">
           
-          <div><Link to="/" className=" hover:bg-yellow-200 p-2 rounded-lg ">Home</Link></div>
-          <div><Link to="/aboutMe" className=" hover:bg-yellow-200 p-2 rounded-lg">About</Link></div>
-          <div><Link to="/projects" className=" hover:bg-yellow-200 p-2 rounded-lg">Projects</Link></div>
+          <div><Link to="/" className=" hover:bg-white p-2 rounded-lg ">Home</Link></div>
+          <div><Link to="/aboutMe" className=" hover:bg-white p-2 rounded-lg">About</Link></div>
+          <div><Link to="/projects" className=" hover:bg-white p-2 rounded-lg">Projects</Link></div>
           
          
         </div>

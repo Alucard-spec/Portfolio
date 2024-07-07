@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className='md:text-center pt-12 md:pt-4'>
       <div className='flex flex-row-reverse justify-evenly md:flex-col'><div>
-      <img src={require("./Content Writing/avatar.png")} className='md:mx-auto flex-none w-64 h-64 border-2 rounded-full rounded-s-2xl rounded-t-sm bg-yellow-200 border-neutral-800' alt="Avatar" /></div>
+      <img src={require("./Content Writing/avatar.png")} className='md:mx-auto flex-none w-64 h-64 border-2 rounded-full rounded-s-2xl hover:rounded-xl rounded-t-sm bg-yellow-200 border-neutral-800' alt="Avatar" /></div>
 <motion.div animate={{x:0}} initial={{x:-400}}  whileHover={{ scale: 1.2 }}
     className="text-8xl md:mx-auto font-bold md:text-4xl lg:text-5xl  w-fit py-12 px-0 box-border ">
 
@@ -23,8 +23,8 @@ const Home = () => {
 <div className="flex text-5xl space-y-10 flex-col text-center p-12 lg:text-3xl w-fit mx-auto">
           
           
-          <div><Link to="/aboutMe" className="underline hover:bg-yellow-200 p-2 rounded-lg">About</Link></div>
-          <div><Link to="/projects" className="underline hover:bg-yellow-200 p-2 rounded-lg">Projects</Link></div>
+          <div><Link to="/aboutMe" className="border-b-4 border-yellow-400 hover:bg-yellow-200 p-2 rounded-lg italic">About</Link></div>
+          <div><Link to="/projects" className="border-b-4 border-yellow-400 hover:bg-yellow-200 p-2 rounded-lg">Projects</Link></div>
           
          
         </div>

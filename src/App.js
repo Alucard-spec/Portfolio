@@ -16,7 +16,7 @@ function App() {
     window.scrollTo(0, 0);
   }, [pathname]);
   const bodyStyle = {
-   margin:0,padding:0,minHeight:'100vh',fontFamily:"Anta, sans-serif",fontWeight:400,fontStyle:"normal"
+   margin:0,padding:0,minHeight:'100vh',fontFamily:"sans-serif",fontWeight:400,fontStyle:"normal"
   };
   return (
       
