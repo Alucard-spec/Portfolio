@@ -23,27 +23,24 @@ const Home = () => {
 <div className="flex text-5xl space-y-10 flex-col text-center p-12 lg:text-3xl w-fit mx-auto">
           
           
-          <div><Link to="/aboutMe" className="border-b-4 border-yellow-400 hover:bg-yellow-200 p-2 rounded-lg italic">About</Link></div>
-          <div><Link to="/projects" className="border-b-4 border-yellow-400 hover:bg-yellow-200 p-2 rounded-lg">Projects</Link></div>
+          <div><Link to="/aboutMe" className="border-b-4 border-yellow-400 hover:bg-yellow-200 p-2 rounded-lg hover:italic hover:tracking-wide transition-all">About</Link></div>
+          <div><Link to="/projects" className="border-b-4 border-yellow-400 hover:bg-yellow-200 p-2 rounded-lg hover:italic hover:tracking-wide transition-all">Projects</Link></div>
           
          
         </div>
 
         <div>
     
-    <div className=' text-3xl md:text-2xl flex md:flex-col  gap-10 md:gap-4 mx-auto w-fit  italic underline pt-6 md:pt-4'> 
-    <div animate={{x:0}} initial={{x:-200}}  whileHover={{ scale: 1.2 }}
-    className="text-3xl flex gap-2 md:text-2xl w-fit md:mx-auto  box-border ">
+    <div className=' text-3xl md:text-2xl flex md:flex-col  gap-10 md:gap-4 mx-auto w-fit  underline pt-6 md:pt-4'> 
+    <div className="text-3xl flex gap-2 md:text-2xl w-fit md:mx-auto  box-border hover:italic hover:tracking-wide transition-all hover:text-blue-500">
 
 <a href="https://www.linkedin.com/in/ujjawal-verma-1a57a125a/">Linked In</a><CiLinkedin size={40} color='blue'/>
 </div>
-<div animate={{x:0}} initial={{x:-400}}  whileHover={{ scale: 1.2 }}
-    className="text-3xl flex gap-2 w-fit md:mx-auto md:text-2xl  box-border ">
+<div className="text-3xl flex gap-2 w-fit md:mx-auto md:text-2xl  box-border hover:italic hover:tracking-wide transition-all hover:text-red-500 ">
 
 <a href="https://www.instagram.com/ujjawal._.verma/">Instagram</a><FaInstagram size={40} color='red'/>
 </div>
-<div animate={{x:0}} initial={{x:-600}}  whileHover={{ scale: 1.2 }}
-    className="text-3xl flex gap-2 md:text-2xl  md:mx-auto   w-fit box-border ">
+<div className="text-3xl flex gap-2 md:text-2xl  md:mx-auto   w-fit box-border hover:italic hover:tracking-wide transition-all hover:text-blue-600 ">
 
 <a href="https://twitter.com/ujjawal_verma9">Twitter</a><CiTwitter size={40} color='blue'/>
 </div>
