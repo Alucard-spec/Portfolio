@@ -13,7 +13,7 @@ const ExtendedAboutMe = () => {
       <br />
       Greetings! Originating from the vibrant city of Lucknow, I'm currently immersed in the world of computer science as an undergraduate. I thrive on exploring new destinations, devouring books across genres, and indulging in diverse culinary adventures. Fueled by a relentless drive to accomplish significant milestones, I cherish every moment and aspire to embrace all that life has to offer. <br /> <br /> 
      <div><a href="https://github.com/Alucard-spec" className='text-blue-700 underline hover:bg-yellow-200 p-2 rounded-2xl'>My Github Page</a></div>
-     <div><a href="https://drive.google.com/file/d/1mM5piucEmbATspRIKDSmx_Ym0n75cFy3/view?usp=drive_link" className='text-blue-700 underline hover:bg-yellow-200 p-2 rounded-2xl'>My Resume</a></div>
+     <div><a href="https://drive.google.com/file/d/12bEh0HkK-5teltJamF17laxiih6x0kCd/view?usp=sharing" className='text-blue-700 underline hover:bg-yellow-200 p-2 rounded-2xl'>My Resume</a></div>
      </div>
       
       <motion.img animate={{scale:1}} initial={{scale:0}} transition={{duration:0.5}} src={require("./Content Writing/profilePic.jpg")} className='object-cover max-h-96 border-4 border-black rounded-full' alt="Avatar" />
