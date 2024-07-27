@@ -6,6 +6,7 @@ import Home from "./components/Home.jsx";
 import Navbar from './components/Navbar.jsx';
 import Projects from './components/Projects.jsx';
 import ExtendedAboutMe from './components/ExtendedAboutMe.jsx';
+import Blog from './components/Blog.jsx';
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route exact path="/" element={<Home/>} />
         <Route path="/projects" element={<Projects/>} />
         <Route path="/aboutMe" element={<ExtendedAboutMe/>} />
+        <Route path="/blogs" element={<Blog/>} />
       </Routes>
     
       

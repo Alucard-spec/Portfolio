@@ -21,6 +21,9 @@ const Navbar = () => {
     else if(location.pathname==='/aboutMe'){
       return "About Me";
   }
+  else if(location.pathname==='/blogs'){
+    return "Blogs"
+  }
  }
   return ( location.pathname!=="/"?(
     <nav className=" text-2xl lg:text-xl bg-yellow-200 text-black p-2 px-4 sticky top-0 z-20 ">
@@ -32,6 +35,7 @@ const Navbar = () => {
           <div><Link to="/" className=" hover:bg-white p-2 rounded-lg ">Home</Link></div>
           <div><Link to="/aboutMe" className=" hover:bg-white p-2 rounded-lg">About</Link></div>
           <div><Link to="/projects" className=" hover:bg-white p-2 rounded-lg">Projects</Link></div>
+          <div><Link to="/blogs" className=" hover:bg-white p-2 rounded-lg">Blogs</Link></div>
           
          
         </div>
@@ -72,7 +76,7 @@ const Navbar = () => {
           <div>  <Link to="/" className=" hover:bg-yellow-200 block py-2 px-4" onClick={toggleMenu}>Home</Link></div>
           <div><Link to="/aboutMe" onClick={toggleMenu} className=" hover:bg-yellow-200 block py-2 px-4">About</Link></div>
           <div><Link to="/projects" onClick={toggleMenu} className=" hover:bg-yellow-200 block py-2 px-4">Projects</Link></div>
-          
+          <div><Link to="/blogs" onClick={toggleMenu} className=" hover:bg-yellow-200 block py-2 px-4">Blogs</Link></div>
         </div>
       )}
     </nav>

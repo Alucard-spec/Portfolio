@@ -25,6 +25,7 @@ const Home = () => {
           
           <div><Link to="/aboutMe" className="border-b-4 border-yellow-400 hover:bg-yellow-200 p-2 rounded-lg hover:italic hover:tracking-wide transition-all">About</Link></div>
           <div><Link to="/projects" className="border-b-4 border-yellow-400 hover:bg-yellow-200 p-2 rounded-lg hover:italic hover:tracking-wide transition-all">Projects</Link></div>
+          <div><Link to="/blogs" className="border-b-4 border-yellow-400 hover:bg-yellow-200 p-2 rounded-lg hover:italic hover:tracking-wide transition-all">Blogs</Link></div>
           
          
         </div>
