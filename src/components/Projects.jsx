@@ -72,7 +72,7 @@ const Projects = () => {
        
         <div className='flex gap-16 lg:gap-6 md:gap-1 md:flex-col  px-16 lg:px-12 md:px-3 text-2xl md:text-xl items-center italic   '><div className='h-fit w-[60%] md:w-full my-auto'>
         Created a vibrant and interactive school website that showcases the school's features and curriculum using randomly generated data. The site is packed with fun functionalities like a gallery with filters, a lively carousel, and user-friendly forms. Using React.js for seamless front-end development and Tailwind CSS for a sleek, modern design, this project was a joy to build and brings the school's offerings to life.<br />
-        <a href="https://github.com/Alucard-spec/platformer" className='text-blue-500 font-bold hover:bg-white p-1 rounded-xl'>Github Repo</a>  </div>
+        <a href="https://github.com/Alucard-spec/School-website" className='text-blue-500 font-bold hover:bg-white p-1 rounded-xl'>Github Repo</a>  </div>
 <br /><div className='w-[40%] md:w-full'>
 <img className='object-cover mx-auto ' alt='Project sample' src={require("./Content Writing/School_website.png")}  /></div>
 
