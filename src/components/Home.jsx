@@ -46,7 +46,7 @@ const Home = () => {
 <a href="https://twitter.com/ujjawal_verma9">Twitter</a><CiTwitter size={40} color='blue'/>
 </div>
     </div></div>
-
+<br />
 </div>
   )
 }

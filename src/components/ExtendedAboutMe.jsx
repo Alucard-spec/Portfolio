@@ -26,7 +26,7 @@ const ExtendedAboutMe = () => {
        </div>
      </div>
     
-     
+     <br />
     
    </div>
    
