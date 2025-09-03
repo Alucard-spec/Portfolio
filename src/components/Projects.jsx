@@ -4,20 +4,7 @@ const Projects = () => {
   return (
     <div>
 
-      {/* SPotify Clone */}
-
-    <div className=' py-14 bg-black text-white flex  flex-col justify-evenly border-2 border-black ' >
-       <div className=" font-bold text-5xl lg:text-4xl md:text-3xl px-16 lg:px-12 md:px-3  text-left   "> <span className='border-b-4 border-yellow-400'>Spotify-Clone</span></div>
-      <br />
-       
-        <div className='flex gap-16 lg:gap-6 md:gap-1 md:flex-col w-full px-16 lg:px-12 md:px-3 text-2xl md:text-xl italic items-center   '><div className='h-fit w-[60%] md:w-full my-auto'>
-        Created a lively Spotify clone using Next.js, Tailwind CSS, and Supabase, bringing music streaming to life! This project includes a range of exciting features such as user authentication, song uploads, liked playlists, and seamless song playback, making it a joy to explore and enjoy your favorite tunes.<br />
-<a href="https://spotify-clone-oydb.vercel.app/" className='text-blue-500 font-bold hover:bg-white p-1 rounded-xl'>Github Repo</a> </div>
-<br /><div className='w-[40%] md:w-full'>
-<img className=' object-cover mx-auto ' alt='project sample' src={require("./Content Writing/Spotify_clone.png")}  /></div>
-
-</div>
-    </div>
+     
 
     {/* RPL TODO */}
     
